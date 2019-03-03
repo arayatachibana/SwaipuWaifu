@@ -94,7 +94,7 @@ wxPython==4.0.3
 $ https://clarifai.com/developer/account/login
 
 #### Step 0
-- Download Tinder profile images into a file.
+- Download Tinder profile images into the same file location with this code.
 - run FaceCropper.py in the folder to crop all the faces from the images.
   - all the images of cropped faces would be saved in the same file location 
 - Annotate the cropped Tinder profile images to get data to start with
@@ -107,7 +107,7 @@ $ https://clarifai.com/developer/account/login
 #### Step 1
 - Run Training.py 
   - make sure to type the api_key on line16
-  - change the train test split if necessary
+  - change the way of splitting the test data and train data
 
 #### Step 2
 - Login to PCver of Tinder
